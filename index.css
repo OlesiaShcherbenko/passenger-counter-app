@@ -1,0 +1,62 @@
+body {
+  background-color: #f5f6fa;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #1e1e1e;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 24px;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  width: 220px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Increment button - Figma primary blue */
+#increment-btn {
+  background-color: #1a73e8;
+  color: white;
+}
+
+#increment-btn:hover {
+  background-color: #1669d2;
+  box-shadow: 0 2px 6px rgba(26, 115, 232, 0.25);
+}
+
+/* Save button - soft red */
+#save-btn {
+  background-color: #e94e77;
+  color: white;
+}
+
+#save-btn:hover {
+  background-color: #d8446a;
+  box-shadow: 0 2px 6px rgba(233, 78, 119, 0.25);
+}
